@@ -1,10 +1,10 @@
 body{
-    color: blueviolet;
-    background-color:grey
+    color: fuchsia;
+    background-color:rgb(65, 65, 65)
 }
 
 .header{
-    text-shadow: 5px 5px 10px darkslategrey;
+    text-shadow: 5px 5px 10px rgb(32, 32, 32);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -39,9 +39,9 @@ margin-top: 5%;
 }
 a {
     text-decoration: none;
-    color: blueviolet;
+    color: fuchsia;
     font-size: 20px;
-    text-shadow: 5px 5px 10px darkslategray;
+    text-shadow: 5px 5px 10px rgb(32, 32, 32);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .hemknapp{
@@ -60,6 +60,6 @@ a {
 .bodytxt{
     display: flex;
     justify-content: center;
-    text-shadow: 5px 5px 10px darkslategray;
+    text-shadow: 5px 5px 10px rgb(32, 32, 32);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
