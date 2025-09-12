@@ -7,6 +7,9 @@ body{
     text-shadow: 5px 5px 10px darkslategrey;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .flex_container{
@@ -20,6 +23,7 @@ body{
 .box_1{
 margin-top: 5%;
     padding: 3%;
+    
     
 }
 .box_2{
@@ -51,4 +55,11 @@ a {
     
     /* margin-top: 13%; */
     
+}
+
+.bodytxt{
+    display: flex;
+    justify-content: center;
+    text-shadow: 5px 5px 10px darkslategray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
