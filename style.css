@@ -20,6 +20,7 @@ body{
     
 }
 
+
 .box_1{
 margin-top: 5%;
     padding: 3%;
@@ -60,6 +61,8 @@ a {
 .bodytxt{
     display: flex;
     justify-content: center;
+    text-align: center;
     text-shadow: 5px 5px 10px rgb(32, 32, 32);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
