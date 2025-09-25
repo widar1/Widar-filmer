@@ -1,5 +1,5 @@
 body{
-    color: rgb(195, 0, 195);
+    color: rgb(163, 0, 163);
     background-color:rgb(74, 74, 74)
 }
 
@@ -7,7 +7,7 @@ body{
     text-shadow: 5px 5px 10px rgb(32, 32, 32);
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    
     align-items: center;
     margin: 0%;
     
@@ -21,6 +21,11 @@ body{
     justify-content: space-between;
     
 }
+.flex_container a:hover {
+    text-shadow: 0 0 10px rgb(163, 0, 163); 
+    transform: scale(1.05);
+     color: #ffffff; 
+  }
 
 
 .box_1{
@@ -42,7 +47,7 @@ margin-top: 5%;
 }
 a {
     text-decoration: none;
-    color: rgb(195, 0, 195);
+    color: rgb(163, 0, 163);
     font-size: 20px;
     text-shadow: 5px 5px 10px rgb(32, 32, 32);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -53,25 +58,79 @@ a {
     left: 0;
     font-size: 40px; 
     margin-left:5px;
-    margin-bottom:2px;
-
-    
-    /* margin-top: 13%; */
-    
+    margin-bottom:2px;    
 }
+.hemknapp a:hover {
+    text-shadow: 0 0 10px rgb(163, 0, 163); 
+    transform: scale(1.05);
+     color: #ffffff; 
+  }
 
-.bodytxt{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    text-shadow: 5px 5px 10px rgb(32, 32, 32);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-}
+
+
 
 .knapp{
 font-size: xx-large;
 display: flex;
 align-items: end;
 justify-content: end;
+}
+
+
+
+
+ .header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 99vw;                 
+    text-shadow: 5px 5px 10px rgb(32, 32, 32);
+    padding: 10;                     
+    box-sizing: border-box;          
+  }
+
+    .left, .right {
+    padding:  0px; 
+    font-size: x-large;
+}
+ .header a {
+    color: rgb(163, 0, 163);        
+    text-decoration: none;         
+    padding: 10px 20px;            
+    font-size: 20px;
+  }
+
+  .header a:hover {
+    text-shadow: 0 0 10px rgb(163, 0, 163); 
+    transform: scale(1.05);
+     color: #ffffff; 
+  }
+  .header img {
+    width: 80px;  
+    height: auto; 
+}
+.film-info{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-shadow: 5px 5px 10px rgb(32, 32, 32);
+}
+.film-details{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 10px rgb(32, 32, 32);
+}
+.rating{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 10px rgb(32, 32, 32);
+    font-size: xx-large;
+}
+.review{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 10px rgb(32, 32, 32);
+    font-size: x-large;
+}
+.title{
+    font-size: xx-large;
+}
+.header a{
+    font-size: xx-large;
+    padding: 20px;
 }
