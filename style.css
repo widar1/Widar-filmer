@@ -1,6 +1,6 @@
 body{
-    color: fuchsia;
-    background-color:rgb(112, 112, 112)
+    color: rgb(195, 0, 195);
+    background-color:rgb(85, 85, 85)
 }
 
 .header{
@@ -40,7 +40,7 @@ margin-top: 5%;
 }
 a {
     text-decoration: none;
-    color: fuchsia;
+    color: rgb(195, 0, 195);
     font-size: 20px;
     text-shadow: 5px 5px 10px rgb(32, 32, 32);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
