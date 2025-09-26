@@ -134,3 +134,14 @@ justify-content: end;
     font-size: xx-large;
     padding: 20px;
 }
+.mail a:hover{
+    text-shadow: 0 0 10px rgb(163, 0, 163); 
+    transform: scale(1.05);
+     color: #ffffff;
+     font-size: 20px;
+     
+}
+.mail{
+font-size: 20px;
+    margin-left: 46%;
+}
