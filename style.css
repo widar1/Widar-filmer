@@ -17,7 +17,7 @@ body {
   align-items: center;
   margin: 0%;
   width: 99vw;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Verdana;
 }
 
 .left,
@@ -38,23 +38,23 @@ body {
 }
 
 .film-info {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Verdana";
   text-shadow: 5px 5px 10px rgb(32, 32, 32);
   text-align: center;
 }
 .film-details {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Verdana";
   text-shadow: 5px 5px 10px rgb(32, 32, 32);
   text-align: center;
 }
 .rating {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Verdana";
   text-shadow: 5px 5px 10px rgb(32, 32, 32);
   font-size: xx-large;
   text-align: center;
 }
 .review {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Verdana";
   text-shadow: 5px 5px 10px rgb(32, 32, 32);
   font-size: x-large;
   text-align: center;
@@ -91,6 +91,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: "Verdana";
 }
 
 .dropdown {
@@ -151,13 +152,14 @@ body {
   padding: 20px 0;
   background-color: #333;
   border-bottom: 1px solid #333;
+  font-family: "Verdana";
 }
 
 .site-header h1 {
   margin: 0;
   font-size: 2.5em;
   color: rgb(163, 0, 163);
-  font-family: "Arial", sans-serif;
+  font-family: "Verdana";
 }
 
 .poster-grid {
@@ -204,7 +206,7 @@ body {
   font-weight: bold;
   opacity: 0;
   transition: opacity 0.3s ease;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Verdana";
 }
 
 .poster:hover .movie-title {
@@ -225,7 +227,7 @@ body {
   border-radius: 5px;
   font-size: 1em;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Verdana";
 }
 
 .info-button:hover {
@@ -233,7 +235,7 @@ body {
   transform: scale(1.05);
 }
 .review2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Verdana";
   text-shadow: 5px 5px 10px rgb(32, 32, 32);
   font-size: large;
 }
