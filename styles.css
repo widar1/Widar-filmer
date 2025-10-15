@@ -81,7 +81,6 @@ body {
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
-  border-radius: 8px;
 }
 
 .navbar a {
@@ -204,7 +203,6 @@ body {
   font-weight: bold;
   opacity: 0;
   transition: opacity 0.3s ease;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .poster:hover .movie-title {
@@ -225,7 +223,6 @@ body {
   border-radius: 5px;
   font-size: 1em;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .info-button:hover {
@@ -236,14 +233,4 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-shadow: 5px 5px 10px rgb(32, 32, 32);
   font-size: large;
-}
-
-.text-box {
-  background-color: #333;
-  color: rgb(163, 0, 163);
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 100vw;
-  margin: 0 auto;
-  text-align: center;
 }
